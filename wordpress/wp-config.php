@@ -29,7 +29,7 @@ define('DB_USER', 'binu_project');
 define('DB_PASSWORD', 'binu_project');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'kocia.cytzyor3ndjk.ap-northeast-2.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
