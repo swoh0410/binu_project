@@ -34,6 +34,10 @@
 
                     /*$avia_config['size'] = avia_layout_class( 'main' , false) == 'fullsize' ? 'entry_without_sidebar' : 'entry_with_sidebar';
                     get_template_part( 'includes/loop', 'page' );*/
+					
+					//display the actual post content
+					the_post();
+					the_content();
 					echo 'hello';
 					
                     ?>
