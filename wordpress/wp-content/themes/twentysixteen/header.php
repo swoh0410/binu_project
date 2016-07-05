@@ -22,6 +22,9 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<h1>테스트입니다.</h1>
+
 <div id="page" class="site">
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
