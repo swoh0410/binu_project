@@ -35,7 +35,7 @@
                     /*$avia_config['size'] = avia_layout_class( 'main' , false) == 'fullsize' ? 'entry_without_sidebar' : 'entry_with_sidebar';
                     get_template_part( 'includes/loop', 'page' );*/
 
-					echo 'hello';
+					echo 'hello hello';
 					
                     ?>
 					</div>
