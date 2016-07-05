@@ -40,10 +40,10 @@
 					echo '<form action="" method="">';
 					echo '<table>';
 					echo '<tr>';
-					echo '<th>ID</tr>';
+					echo '<th>ID</th>';
 					echo '<td><input type="text" name="user_id"></td></tr>';
 					echo '<tr>';
-					echo '<th>Password</tr>';
+					echo '<th>Password</th>';
 					echo '<td><input type="text" name="password"></td></tr>';
 					echo '</table>';
 					echo '</div>';
