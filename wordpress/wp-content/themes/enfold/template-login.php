@@ -1,6 +1,6 @@
 <?php
 	/*
-	Template Name: Archives
+	Template Name: Login Template
 	*/
 
 	if ( !defined('ABSPATH') ){ die(); }
