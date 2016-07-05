@@ -41,11 +41,14 @@
 					echo '<table>';
 					echo '<tr>';
 					echo '<th>ID</th>';
-					echo '<td><input type="text" name="user_id"></td></tr>';
+					echo '<td><input type="text" name="user_id"></td>';
+					echo '</tr>';
 					echo '<tr>';
 					echo '<th>Password</th>';
-					echo '<td><input type="text" name="password"></td></tr>';
+					echo '<td><input type="text" name="password"></td>';
+					echo '</tr>';
 					echo '</table>';
+					echo '</form>';
 					echo '</div>';
 							
 					
