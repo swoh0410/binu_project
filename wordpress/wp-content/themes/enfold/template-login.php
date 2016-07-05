@@ -36,6 +36,19 @@
                     get_template_part( 'includes/loop', 'page' );*/
 
 					echo 'hello hello';
+					echo '<div>';
+					echo '<form action="" method="">';
+					echo '<table>';
+					echo '<tr>';
+					echo '<th>ID</tr>';
+					echo '<td><input type="text" name="user_id"></td></tr>';
+					echo '<tr>';
+					echo '<th>Password</tr>';
+					echo '<td><input type="text" name="password"></td></tr>';
+					echo '</table>';
+					echo '</div>';
+							
+					
 					
                     ?>
 					</div>
