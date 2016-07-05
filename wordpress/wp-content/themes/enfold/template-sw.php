@@ -1,5 +1,10 @@
 <html>
-hteml : statement <br>
-<?php echo "php: statement"?>
-
+<?php
+	/*
+	Template Name: test-TEMP
+	*/
+	
+ echo "php: statement". "<br>";
+?>
+html : statement 
 </html>
