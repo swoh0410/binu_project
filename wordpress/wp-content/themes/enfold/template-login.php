@@ -25,8 +25,10 @@
                     * called loop-page.php and that will be used instead.
                     */
 
-                    $avia_config['size'] = avia_layout_class( 'main' , false) == 'fullsize' ? 'entry_without_sidebar' : 'entry_with_sidebar';
-                    get_template_part( 'includes/loop', 'page' );
+                    /*$avia_config['size'] = avia_layout_class( 'main' , false) == 'fullsize' ? 'entry_without_sidebar' : 'entry_with_sidebar';
+                    get_template_part( 'includes/loop', 'page' );*/
+					echo 'hello';
+					
                     ?>
 
 				<!--end content-->
