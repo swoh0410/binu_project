@@ -79,8 +79,10 @@ $table_prefix  = 'binu_project_';
  */
 define('WP_DEBUG', false);
 
+/*
 define('WP_HOME','http://binu.phplove.net');
 define('WP_SITEURL','http://binu.phplove.net');
+*/
 
 /* That's all, stop editing! Happy blogging. */
 
