@@ -1,25 +1,32 @@
-<?php 
+<?php
 	/*
-	Template Name: 로그인페이지
+	Template Name: Archives
 	*/
-	
+
 	if ( !defined('ABSPATH') ){ die(); }
+	/*
+	 * get_header is a basic wordpress function, used to retrieve the header.php file in your theme directory.
+	 */
 
+
+	 global $avia_config, $more;
 	 get_header();
-
-
- 	 if( get_post_meta(get_the_ID(), 'header', true) != 'no') echo avia_title();
- 	 
- 	 do_action( 'ava_after_main_title' );
+	 echo avia_title();
+	 
+	 do_action( 'ava_after_main_title' );
 	 ?>
+
+
 
 		<div class='container_wrap container_wrap_first main_color <?php avia_layout_class( 'main' ); ?>'>
 
 			<div class='container'>
 
-				<main class='template-page content  <?php avia_layout_class( 'content' ); ?> units' <?php avia_markup_helper(array('context' => 'content','post_type'=>'page'));?>>
+				<main class='template-archives content <?php avia_layout_class( 'content' ); ?> units' <?php avia_markup_helper(array('context' => 'content'));?>>
 
-                    <?php
+					<div class="entry-content-wrapper entry-content clearfix">
+
+				<?php
                     /* Run the loop to output the posts.
                     * If you want to overload this in a child theme then include a file
                     * called loop-page.php and that will be used instead.
@@ -30,7 +37,7 @@
 					echo 'hello';
 					
                     ?>
-
+					</div>
 				<!--end content-->
 				</main>
 
@@ -45,6 +52,7 @@
 			</div><!--end container-->
 
 		</div><!-- close default .container_wrap element -->
+
 
 
 
